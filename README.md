@@ -1,7 +1,7 @@
 Bitcore Node Artax
 ============
 
-A Artax full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Artax Core v0.12.1.x](https://github.com/yoyaeArtax/artax/tree/v0.12.1.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Artax full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Artax Core v0.12.1.x](https://github.com/artaxYoyae/artax/tree/v0.12.1.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -31,7 +31,7 @@ bitcore-node-artax start
 
 This will create a directory with configuration files for your node and install the necessary dependencies.
 
-Please note that [Artax Core v0.12.1.x](https://github.com/yoyaeArtax/artax/tree/v0.12.1.x) will be downloaded automatically. Once completed the dashd binary should be placed into the &lt;artax-data-dir&gt; folder specified during node creation.
+Please note that [Artax Core v0.12.1.x](https://github.com/artaxYoyae/artax/tree/v0.12.1.x) will be downloaded automatically. Once completed the dashd binary should be placed into the &lt;artax-data-dir&gt; folder specified during node creation.
 
 For more information about (and developing) services, please see the [Service Documentation](docs/services.md).
 
@@ -39,9 +39,9 @@ For more information about (and developing) services, please see the [Service Do
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/yoyaeArtax/insight-api-artax/tree/master)
-- [Insight UI](https://github.com/yoyaeArtax/insight-ui-artax/tree/master)
-- [Bitcore Wallet Service](https://github.com/yoyaeArtax/bitcore-wallet-service/tree/master)
+- [Insight API](https://github.com/artaxYoyae/insight-api-artax/tree/master)
+- [Insight UI](https://github.com/artaxYoyae/insight-ui-artax/tree/master)
+- [Bitcore Wallet Service](https://github.com/artaxYoyae/bitcore-wallet-service/tree/master)
 
 ## Documentation
 
